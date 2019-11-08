@@ -1,6 +1,6 @@
 FROM ruby:2.6-stretch
 MAINTAINER poVoq <kris@outmo.de>
-LABEL description="Ruby 2.6 Debian Strech with Nginx and Zhabogram"
+LABEL description="Ruby 2.6 Debian Stretch with Nginx and Zhabogram"
 
 RUN apt-get update &&\
     apt-get install -y -q nginx &&\
