@@ -11,7 +11,7 @@ COPY ./nginx-default.conf /etc/nginx/conf.d/default.conf
 # throw errors if Gemfile has been modified since Gemfile.lock
 RUN bundle config --global frozen 1
 
-WORKDIR /usr/src/app
+WORKDIR /opt/zhabogram
 
 RUN git clone https://git.narayana.im/narayana/zhabogram.git
 
