@@ -15,7 +15,7 @@ WORKDIR /usr/src/app
 
 RUN git clone https://git.narayana.im/narayana/zhabogram.git
 
-COPY Gemfile Gemfile.lock ./
+COPY config.yml Gemfile Gemfile.lock ./
 RUN bundle install
 
 COPY . .
