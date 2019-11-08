@@ -1,5 +1,5 @@
 # zhabogram-docker
-Docker script for XMPP/Jabber transport to Telegram network
+(Non-functional / WIP) Docker script for XMPP/Jabber transport to Telegram network
 
 For: https://dev.narayana.im/narayana/zhabogram
 Mirror: https://github.com/poVoq/zhabogram
@@ -9,3 +9,4 @@ Mirror: https://github.com/poVoq/zhabogram
 - [ ] Make dockerfile with ruby-stretch image
 - [ ] Include Nginx setup for Telegram to XMPP file transfer
 - [ ] Make docker-compose script compatible with Traefik
+- [ ] Make it possibe to set configuration parameters in ENV variables 
